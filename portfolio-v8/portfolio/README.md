@@ -18,12 +18,6 @@ Dependencies: react, react-dom, react-router-dom, framer-motion, tailwindcss + @
 - `public/portrait.jpg` — your photo for the About ID card.
 - `public/logos/` — your own logo files (currently the Teach For Indonesia wordmark).
 
-## Before launch
-- Verify the OreMining claim (59% better accuracy than deep learning / up to 90% lower compute cost) against your results; see the `VERIFY` note in `projects.js`.
-- Archive descriptions and the work-in-progress summaries are written from each project's title plus what is documented elsewhere (e.g. PT KAI, California Housing). Check each one, and replace with your own wording where you want more detail.
-- Items in the skill lists that have no page of their own (e.g. AI SweetHome) are not linked.
-- Skills logos are bundled (simple-icons). In the Read grid, brands without a bundled mark load their site icon from Google's favicon service at runtime and fall back to a text badge if it can't load.
-
 ## Scroll map (vh)
 Hero banners 0–440 (4 × 110) → About iris 440–540 → About pack opening 540–940 → Skills cover 940–1040 →
 Skills: per card (rest, zoom in, read, zoom out, slide) 112 each → grid → Read slides up → Play tucks over Read.
